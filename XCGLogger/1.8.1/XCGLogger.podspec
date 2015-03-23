@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
 
   s.source        = { :git => "https://github.com/DaveWoodCom/XCGLogger", :tag => "Version_1.8.1" }
   
-  s.source_files  = "XCGLogger/Library/XCGLogger/*.swift"
+  s.source_files  = "XCGLogger/Library/XCGLogger/XCGLogger.swift"
+
   s.framework     = "Foundation"
   
   s.ios.deployment_target = '8.0'
