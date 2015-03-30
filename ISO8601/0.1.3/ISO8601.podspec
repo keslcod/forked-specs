@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.authors = {'Sam Soffes' => 'sam@soff.es'}
   spec.homepage = 'https://github.com/keslcod/ISO8601'
   spec.summary = 'ISO8601 date parsing and writing.'
-  spec.source = {:git => 'https://github.com/keslcod/ISO8601.git', :tag => "v#{spec.version}"}
+  spec.source = {:git => 'https://github.com/florianbuerger/ISO8601.git', :tag => "v#{spec.version}"}
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.platforms = :ios, :osx
